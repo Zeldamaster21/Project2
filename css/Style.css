@@ -5,22 +5,65 @@
 	color: #FFFFFF;
 	font-weight: bold;
 }
-.rolloverNav {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	line-height: 18px;
-	color: #FFFFFF;
-	text-decoration: none;
+
+.menu {
+  margin-bottom: 20px;
+  back-color:# light gray
 }
+
+.rolloverNav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 24px; /* Adjusted line height for better spacing */
+  color: #FFFFFF; 
+  text-decoration: none; 
+  padding: 10px 15px; /* Adds space around the text  */
+  display: inline-block; /* giving it a Button-like appearance */
+  border-radius: 5px; /* Adds rounded corners */
+  background-color: #333333; /* adding Button background color */
+
+}
+
 a.rolloverNav:hover {
-	color: #990000;
-	text-decoration: none;
+  color: #990000; /* Changes text color on hover */
+  background-color: #555555; /* Changes button background color on hover */
+  text-decoration: none; /* Ensures no underline appears */
 }
 .navFont {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #999999;
 	font-size: 11px;
 }
+
+/* Main Content for history */
+.main-content {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* for the read More Link */
+.read-more .rolloverNav {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .main-content table {
+    width: 100%; /* Adjusts the table width for mobile devices */
+  }
+
+  .main-content td {
+    display: block; /* Stack cells vertically */
+    width: auto;
+  }
+}
+
+/*parts that doesn't apply to the history page*/
 .formsField {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
