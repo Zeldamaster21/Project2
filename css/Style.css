@@ -1,0 +1,66 @@
+.bodyFont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.rolloverNav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.rolloverNav:hover {
+	color: #990000;
+	text-decoration: none;
+}
+.navFont {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 11px;
+}
+.formsField {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+	width: 160px;
+	border: 1px solid #666666;
+	height: 15px;
+}
+.formsMessage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+	width: 160px;
+	border: 1px solid #666666;
+	height: 80px;
+}
+.formsSend {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #666666;
+	height: 15px;
+	width: 50px;
+	border: 1px solid #666666;
+	text-decoration: none;
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #666666;
+	font-style: italic;
+}
+.bodyFont .style2 .style2 {
+}
+this page {
+	color: #666;
+}
+tr td div .rolloverNav .bodyFont {
+	color: #666;
+}
