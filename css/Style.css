@@ -5,7 +5,10 @@
 	color: black;
 	font-weight: bold;
 }
-
+body{
+	rgb(255, 255, 255);
+    
+}
 .menu {
   margin-bottom: 20px;
   
