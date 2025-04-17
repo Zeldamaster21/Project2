@@ -1,23 +1,21 @@
 .bodyFont {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	line-height: 18px;
-	color: black;
-	font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: black;
+  font-weight: bold;
 }
 body{
-	background-color: black;
-    
+  background-color: black;
 }
 .menu {
   margin-bottom: 20px;
-  
 }
 #navigation-menu{
-	background-color:lightgrey;  
+  background-color:lightgrey;  
 }
 #otherpages{
-	background-color:lightgrey;
+  background-color:lightgrey;
 }
 
 .rolloverNav {
@@ -30,7 +28,6 @@ body{
   display: inline-block; /* giving it a Button-like appearance */
   border-radius: 5px; /* Adds rounded corners */
   background-color: #333333; /* adding Button background color */
-
 }
 
 a.rolloverNav:hover {
@@ -39,9 +36,9 @@ a.rolloverNav:hover {
   text-decoration: none; /* Ensures no underline appears */
 }
 .navFont {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #999999;
-	font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+  font-size: 11px;
 }
 
 /* Main Content for history page*/
@@ -74,45 +71,38 @@ a.rolloverNav:hover {
 
 /*parts that doesn't apply to the history page*/
 .formsField {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	color: #666666;
-	text-decoration: none;
-	width: 160px;
-	border: 1px solid #666666;
-	height: 15px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #666666;
+  text-decoration: none;
+  width: 160px;
+  border: 1px solid #666666;
+  height: 15px;
 }
 .formsMessage {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	color: #666666;
-	text-decoration: none;
-	width: 160px;
-	border: 1px solid #666666;
-	height: 80px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
 }
 .formsSend {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9px;
-	font-weight: bold;
-	color: #666666;
-	height: 15px;
-	width: 50px;
-	border: 1px solid #666666;
-	text-decoration: none;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #666666;
+  text-decoration: none;
 }
 .copyright {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 9px;
-	font-weight: bold;
-	color: #666666;
-	font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  font-weight: bold;
+  color: #666666;
+  font-style: italic;
 }
 .bodyFont .style2 .style2 {
 }
 this page {
-	color: #666;
+  color: #666;
 }
 tr td div .rolloverNav .bodyFont {
-	color: #666;
+  color: #666;
 }
