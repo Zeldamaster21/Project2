@@ -10,9 +10,15 @@ body{
 }
 .menu {
   margin-bottom: 20px;
+  text-align: center;
+}
+.menu-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 #navigation-menu{
-  background-color:lightgrey;  
+  background-color:lightgrey;
 }
 #otherpages{
   background-color:lightgrey;
