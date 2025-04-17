@@ -72,18 +72,15 @@ a.rolloverNav:hover {
 /*parts that doesn't apply to the history page*/
 .formsField {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 10px;
   color: #666666;
   text-decoration: none;
-  width: 160px;
   border: 1px solid #666666;
-  height: 15px;
+  text-align: center;
 }
 .formsMessage {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   color: #666666;
   text-decoration: none;
-  text-align: center;
 }
 .formsSend {
   font-family: Verdana, Arial, Helvetica, sans-serif;
