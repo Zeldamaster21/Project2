@@ -18,6 +18,40 @@ body{
 #otherpages{
 	background-color:lightgrey;
 }
+nav{
+	background-color: rgba(248, 249, 250, 1) !important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    padding: 0.5rem 0;
+    display: flex;
+}
+
+.container-fluid{
+	display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: calc(1.5rem*.5);
+	padding-left: calc(1.5rem*.5);
+	margin-left:auto;
+	
+}
+.navbar-brand{
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	color:black;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.text-center{
+	text-align: center !important;
+}
 
 .rolloverNav {
   font-family: Arial, Helvetica, sans-serif;
@@ -60,10 +94,40 @@ a.rolloverNav:hover {
   margin-top: 10px;
 }
 
+.navbar-nav{
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom:0;
+	list-style: none;
+}
 
+.nav-link{
+	display: block;
+	padding: 0.5rem 0;
+	color: rgba (0,0,0,.65);
+	text-decoration:none;
+	background:0 0;
+	border: 0;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+	}
+	
  .container {
     width: 100%; /* Adjusts the table width for mobile devices */
+	padding-right: calc(1.5rem*.5);
+	padding-left: calc(1.5rem*.5);
+    margin-right: auto;
+    margin-left: auto;
   }
+
+.fs-2{
+font-size: 2rem !important;	
+}
+
+.img-fluid{
+max-width: 100%;
+height: auto;	
+}
 
 @media (min-width: 768px) {
   
@@ -82,11 +146,59 @@ a.rolloverNav:hover {
 	
 }
 
+@media(min-width:992px){
+	.navbar-nav{
+		flex-direction: row;
+	}
+	.mb-lg-0{
+		margin-bottom: 0 !important;
+		
+	}
+	.nav-link{
+		padding-right:0.5rem;
+		padding-left: 0.5rem;
+		
+	}
+}
+
+.mb-2{
+	margin-bottom: .5rem !important;
+}
+
+.me-auto{
+	margin-right: auto !important;
+}
+
+.navbar-nav .nav-link.active{
+	color:black;
+}
+
+
+	
 .row{
 	background-color:lightgrey;
 	border-radius: 10px;
 	 padding: 20px;
 	 margin-top: 20px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 margin-right: calc(-.5*1.5rem);
+    margin-left: calc(-.5*1.5rem);
+}
+
+.row>*{
+	max-width:100%;
+	padding-right: calc(1.5rem*.5);
+	padding-left: calc(1.5rem*.5);
+	margin-top: 0;
+	width: 100%
+}
+.col-12{
+	flex:0 0 auto;
+	width: 100%
+}
+.col{
+	flex: 1 0 0;
 }
 
 .contract-pic{
